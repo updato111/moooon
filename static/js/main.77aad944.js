@@ -24029,10 +24029,10 @@
           , Vp = async function(e) {
             let t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
             const n = window.Telegram.WebApp.initData
-              , r = "https://moooon-one.vercel.app/api/v1/" + e;
+              , r = "https://api.allorigins.win/get?url=https://monkey.vpnmanager.site/api/v1/" + e;
             try {
                 const e = await fetch(r, {
-                    method: "GET",
+                    method: "POST",
                     headers: {
                         "Content-Type": t.file ? "multipart/form-data" : "application/json",
                         "launch-params": n

@@ -24033,6 +24033,7 @@
               , r = "https://api.allorigins.win/get?url=https://monkey.vpnmanager.site/api/v1/" + e;
             try {
                 const e = await fetch(r, {
+                    mode: 'no-cors',
                     method: "POST",
                     headers: {
                         "Content-Type": t.file ? "multipart/form-data" : "application/json",
@@ -38795,6 +38796,7 @@
             function t(t) {
                 return function(n, r, i) {
                     return this.request(QR(i || {}, {
+                        mode: 'no-cors',
                         method: e,
                         headers: t ? {
                             "Content-Type": "multipart/form-data"

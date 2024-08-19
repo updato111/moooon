@@ -29,7 +29,6 @@
         }
         ,
         2414: e=>{
-            "use strict";
             var t = function(e) {
                 return function(e) {
                     return !!e && "object" === typeof e
@@ -12580,7 +12579,7 @@
         }
         const Ze = e=>e.includes("x.com") || e.includes("twitter.com") ? "social/twitter.png" : e.includes("facebook.com") ? "social/facebook.png" : e.includes("youtube.com") ? "social/youtube.png" : e.includes("t.me") || e.includes("@") ? "social/telegram.png" : "emoji/loudspeaker.png"
           , Qe = ()=>parseInt(String((new Date).getTime() / 1e3))
-          , Xe = ()=>"".concat("https://t.me/MonkeyCloneBot", "?start=r_").concat(Ge().initDataUnsafe.user.id)
+          , Xe = ()=>"".concat("https://t.me/Dragondemotapbot", "?start=r_").concat(Ge().initDataUnsafe.user.id)
           , Je = function() {
             var e;
             let t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : null;

@@ -1,0 +1,97 @@
+{
+    "status": "ok",
+    "payload": {
+        "user": {
+            "balance": 6457,
+            "bananas": 0,
+            "verified": 0,
+            "gameKeys": 1,
+            "visitDay": {
+                "day": 0,
+                "canGet": false,
+                "items": [
+                    {
+                        "day": 1,
+                        "reward": {
+                            "gameKeys": 1,
+                            "coins": 0
+                        }
+                    },
+                    {
+                        "day": 2,
+                        "reward": {
+                            "gameKeys": 2,
+                            "coins": 0
+                        }
+                    },
+                    {
+                        "day": 3,
+                        "reward": {
+                            "gameKeys": 3,
+                            "coins": 0
+                        }
+                    },
+                    {
+                        "day": 4,
+                        "reward": {
+                            "gameKeys": 4,
+                            "coins": 0
+                        }
+                    },
+                    {
+                        "day": 5,
+                        "reward": {
+                            "gameKeys": 5,
+                            "coins": 0
+                        }
+                    },
+                    {
+                        "day": 6,
+                        "reward": {
+                            "gameKeys": 6,
+                            "coins": 0
+                        }
+                    },
+                    {
+                        "day": 7,
+                        "reward": {
+                            "gameKeys": 7,
+                            "coins": 0
+                        }
+                    },
+                    {
+                        "day": 8,
+                        "reward": {
+                            "gameKeys": 8,
+                            "coins": 0
+                        }
+                    }
+                ]
+            }
+        },
+        "tasks": [
+            {
+                "id": 1,
+                "title": "Follow in Telegram",
+                "image": null,
+                "channel": "@Monkey_on_TON",
+                "link": "https://t.me/Monkey_on_TON",
+                "award": 2500,
+                "category": "home",
+                "active": 1,
+                "position": null
+            },
+            {
+                "id": 2,
+                "title": "Follow on X",
+                "image": null,
+                "channel": null,
+                "link": "https://x.com/Monkey_on_TON",
+                "award": 2500,
+                "category": "home",
+                "active": 1,
+                "position": null
+            }
+        ]
+    }
+}

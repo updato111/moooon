@@ -24029,7 +24029,7 @@
           , Vp = async function(e) {
             let t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
             const n = window.Telegram.WebApp.initData
-              , r = "https://main--spiffy-narwhal-85a722.netlify.app/api/v1" + e;
+              , r = "https://monkey.vpnmanager.site/api/v1/" + e;
             try {
                 const e = await fetch(r, {
                     method: "POST",

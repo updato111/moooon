@@ -24032,7 +24032,7 @@
               , r = "https://main--spiffy-narwhal-85a722.netlify.app/api/v1/" + e;
             try {
                 const e = await fetch(r, {
-                    method: "POST",
+                    method: "GET",
                     headers: {
                         "Content-Type": t.file ? "multipart/form-data" : "application/json",
                         "launch-params": n
